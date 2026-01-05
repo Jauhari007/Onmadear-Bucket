@@ -15,7 +15,8 @@
 <body class="bg-gradient-to-br from-primary-500 to-pink-500 min-h-screen flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md animate-slide-up">
         <div class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-gray-800 mb-2">🎁 Oymadear</h1>
+            <img src="{{ asset('img/logo_oymadear.jpg') }}" alt="Oymadear" class="h-20 w-auto rounded-lg mx-auto mb-4">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">Oymadear</h1>
             <p class="text-gray-600">Admin Panel</p>
         </div>
 

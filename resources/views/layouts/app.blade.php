@@ -17,8 +17,8 @@
     <nav class="bg-white shadow-lg sticky top-0 z-50 animate-fade-in">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
-                <a href="{{ route('home') }}" class="text-2xl font-bold text-primary-600 hover:text-primary-700 transition">
-                    🎁 Oymadear
+                <a href="{{ route('home') }}" class="flex items-center hover:opacity-80 transition">
+                    <img src="{{ asset('img/logo_oymadear.jpg') }}" alt="Oymadear" class="h-12 w-auto rounded-lg">
                 </a>
                 
                 <div class="hidden md:flex space-x-8">
@@ -74,7 +74,8 @@
         <div class="container mx-auto px-4 py-12">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="animate-slide-up">
-                    <h3 class="text-xl font-bold mb-4">🎁 Oymadear</h3>
+                    <img src="{{ asset('img/logo_oymadear.jpg') }}" alt="Oymadear" class="h-16 w-auto rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-4">Oymadear</h3>
                     <p class="text-gray-300">Bucket untuk setiap momen spesialmu. Kualitas terbaik untuk orang terkasih.</p>
                 </div>
                 

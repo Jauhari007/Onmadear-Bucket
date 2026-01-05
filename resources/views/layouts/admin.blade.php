@@ -17,7 +17,8 @@
         <!-- Sidebar -->
         <aside class="w-64 bg-gradient-to-b from-primary-600 to-primary-800 text-white flex-shrink-0 hidden md:block">
             <div class="p-6">
-                <h2 class="text-2xl font-bold">🎁 Oymadear</h2>
+                <img src="{{ asset('img/logo_oymadear.jpg') }}" alt="Oymadear" class="h-12 w-auto rounded-lg mb-3">
+                <h2 class="text-2xl font-bold">Oymadear</h2>
                 <p class="text-sm text-primary-100">Admin Panel</p>
             </div>
             
